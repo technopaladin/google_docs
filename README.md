@@ -1,6 +1,6 @@
 # google_docs
-##push_to_calendar.gs
-###Creates calendar events based on a Google Sheet.
+## push_to_calendar.gs
+### Creates calendar events based on a Google Sheet.
 1. Create a Google Sheet with these headers:
 ```
 "Offer  Status  Name  Start Date  Position  Company Location	In Calendar?"
