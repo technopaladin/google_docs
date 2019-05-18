@@ -58,6 +58,7 @@ function pushToCalendar() {
       position = i;
   }
 
+  //Choose the right calendar for the right City
   for (var i = 0; i < values.length; i++) {
     if ((values[i][calendar_col] != yes)  && !(isNaN(values[i][start_date]))) {
       if ((values[i][name].length > 0) && (values[i][offer_status] == "Accepted") && (values[i][start_date] != "")) {
