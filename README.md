@@ -4,7 +4,8 @@ Creates calendar events based on a Google Sheet.
 1. Create a Google Sheet with these headers: "Offer Status	Name	Start Date	Position	Company	Location	In Calendar?"
 2. The section in the code called "//calendar variables" needs to be updated with the calendar's addresses in which are to be updated.
 3. The section in the code called "//Choose the right calendar for the right City" needs to be updated with the expected text in the Location column of the spreadsheet. Example:
-```case "San Francisco":
+```python
+case "San Francisco":
   var calendar = CalendarApp.getCalendarById(SF);
   break;
 case "Emerald City":
